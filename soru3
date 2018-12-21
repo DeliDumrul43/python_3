@@ -1,0 +1,7 @@
+sayı = 0
+en_buyuk = []
+for i in range(1,1001):
+    sayı = sayı + i**i
+    sonuc = sayı % 1000000000
+    en_buyuk.append(sonuc)
+print(sonuc)
